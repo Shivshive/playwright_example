@@ -1,0 +1,368 @@
+{
+    "name": "My Test Report",
+    "date": 1667661143729,
+    "version": "1.27.1",
+    "errors": [],
+    "list": [
+        {
+            "title": "chromium",
+            "type": "suite",
+            "tests": 1,
+            "subs": [
+                {
+                    "title": "example.spec.ts",
+                    "type": "suite",
+                    "tests": 1,
+                    "subs": [
+                        {
+                            "title": "homepage has title and links to intro page @example",
+                            "type": "case",
+                            "ok": true,
+                            "outcome": "expected",
+                            "annotations": [],
+                            "expectedStatus": "passed",
+                            "location": "test/example.spec.ts:4:1",
+                            "timeout": 120000,
+                            "attachments": [
+                                {
+                                    "name": "testImage",
+                                    "contentType": "image/png"
+                                },
+                                {
+                                    "name": "video",
+                                    "path": "example-homepage-has-title-and-links-to-intro-page-example-chromium/video.webm",
+                                    "contentType": "video/webm"
+                                },
+                                {
+                                    "name": "screenshot",
+                                    "path": "example-homepage-has-title-and-links-to-intro-page-example-chromium/test-finished-1.png",
+                                    "contentType": "image/png"
+                                }
+                            ],
+                            "duration": 3171,
+                            "retry": 0,
+                            "status": "passed",
+                            "subs": [
+                                {
+                                    "title": "Before Hooks",
+                                    "type": "step",
+                                    "status": "hook",
+                                    "duration": 1027,
+                                    "location": "",
+                                    "subs": [
+                                        {
+                                            "title": "browserContext.newPage",
+                                            "type": "step",
+                                            "status": "pw:api",
+                                            "duration": 164,
+                                            "location": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "page.goto(https://playwright.dev/)",
+                                    "type": "step",
+                                    "status": "pw:api",
+                                    "duration": 1609,
+                                    "location": "test/example.spec.ts:6:14"
+                                },
+                                {
+                                    "title": "expect.toHaveTitle",
+                                    "type": "step",
+                                    "status": "expect",
+                                    "duration": 63,
+                                    "location": "test/example.spec.ts:9:22"
+                                },
+                                {
+                                    "title": "expect.toHaveAttribute",
+                                    "type": "step",
+                                    "status": "expect",
+                                    "duration": 41,
+                                    "location": "test/example.spec.ts:15:28"
+                                },
+                                {
+                                    "title": "locator.click(role=link[name=\"Get started\"i])",
+                                    "type": "step",
+                                    "status": "pw:api",
+                                    "duration": 279,
+                                    "location": "test/example.spec.ts:18:20"
+                                },
+                                {
+                                    "title": "expect.toHaveURL",
+                                    "type": "step",
+                                    "status": "expect",
+                                    "duration": 252,
+                                    "location": "test/example.spec.ts:21:22"
+                                },
+                                {
+                                    "title": "page.screenshot",
+                                    "type": "step",
+                                    "status": "pw:api",
+                                    "duration": 413,
+                                    "location": "test/example.spec.ts:23:26"
+                                },
+                                {
+                                    "title": "After Hooks",
+                                    "type": "step",
+                                    "status": "hook",
+                                    "duration": 258,
+                                    "location": "",
+                                    "subs": [
+                                        {
+                                            "title": "browserContext.close",
+                                            "type": "step",
+                                            "status": "pw:api",
+                                            "duration": 74,
+                                            "location": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "location": "test/example.spec.ts:0:0"
+                }
+            ]
+        },
+        {
+            "title": "firefox",
+            "type": "suite",
+            "tests": 1,
+            "subs": [
+                {
+                    "title": "example.spec.ts",
+                    "type": "suite",
+                    "tests": 1,
+                    "subs": [
+                        {
+                            "title": "homepage has title and links to intro page @example",
+                            "type": "case",
+                            "ok": true,
+                            "outcome": "expected",
+                            "annotations": [],
+                            "expectedStatus": "passed",
+                            "location": "test/example.spec.ts:4:1",
+                            "timeout": 120000,
+                            "attachments": [
+                                {
+                                    "name": "testImage",
+                                    "contentType": "image/png"
+                                },
+                                {
+                                    "name": "video",
+                                    "path": "example-homepage-has-title-and-links-to-intro-page-example-firefox/video.webm",
+                                    "contentType": "video/webm"
+                                },
+                                {
+                                    "name": "screenshot",
+                                    "path": "example-homepage-has-title-and-links-to-intro-page-example-firefox/test-finished-1.png",
+                                    "contentType": "image/png"
+                                }
+                            ],
+                            "duration": 10804,
+                            "retry": 0,
+                            "status": "passed",
+                            "subs": [
+                                {
+                                    "title": "Before Hooks",
+                                    "type": "step",
+                                    "status": "hook",
+                                    "duration": 5788,
+                                    "location": "",
+                                    "subs": [
+                                        {
+                                            "title": "browserContext.newPage",
+                                            "type": "step",
+                                            "status": "pw:api",
+                                            "duration": 1761,
+                                            "location": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "page.goto(https://playwright.dev/)",
+                                    "type": "step",
+                                    "status": "pw:api",
+                                    "duration": 5703,
+                                    "location": "test/example.spec.ts:6:14"
+                                },
+                                {
+                                    "title": "expect.toHaveTitle",
+                                    "type": "step",
+                                    "status": "expect",
+                                    "duration": 90,
+                                    "location": "test/example.spec.ts:9:22"
+                                },
+                                {
+                                    "title": "expect.toHaveAttribute",
+                                    "type": "step",
+                                    "status": "expect",
+                                    "duration": 39,
+                                    "location": "test/example.spec.ts:15:28"
+                                },
+                                {
+                                    "title": "locator.click(role=link[name=\"Get started\"i])",
+                                    "type": "step",
+                                    "status": "pw:api",
+                                    "duration": 102,
+                                    "location": "test/example.spec.ts:18:20"
+                                },
+                                {
+                                    "title": "expect.toHaveURL",
+                                    "type": "step",
+                                    "status": "expect",
+                                    "duration": 183,
+                                    "location": "test/example.spec.ts:21:22"
+                                },
+                                {
+                                    "title": "page.screenshot",
+                                    "type": "step",
+                                    "status": "pw:api",
+                                    "duration": 67,
+                                    "location": "test/example.spec.ts:23:26"
+                                },
+                                {
+                                    "title": "After Hooks",
+                                    "type": "step",
+                                    "status": "hook",
+                                    "duration": 239,
+                                    "location": "",
+                                    "subs": [
+                                        {
+                                            "title": "browserContext.close",
+                                            "type": "step",
+                                            "status": "pw:api",
+                                            "duration": 32,
+                                            "location": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "location": "test/example.spec.ts:0:0"
+                }
+            ]
+        },
+        {
+            "title": "webkit",
+            "type": "suite",
+            "tests": 1,
+            "subs": [
+                {
+                    "title": "example.spec.ts",
+                    "type": "suite",
+                    "tests": 1,
+                    "subs": [
+                        {
+                            "title": "homepage has title and links to intro page @example",
+                            "type": "case",
+                            "ok": true,
+                            "outcome": "expected",
+                            "annotations": [],
+                            "expectedStatus": "passed",
+                            "location": "test/example.spec.ts:4:1",
+                            "timeout": 120000,
+                            "attachments": [
+                                {
+                                    "name": "testImage",
+                                    "contentType": "image/png"
+                                },
+                                {
+                                    "name": "video",
+                                    "path": "example-homepage-has-title-and-links-to-intro-page-example-webkit/video.webm",
+                                    "contentType": "video/webm"
+                                },
+                                {
+                                    "name": "screenshot",
+                                    "path": "example-homepage-has-title-and-links-to-intro-page-example-webkit/test-finished-1.png",
+                                    "contentType": "image/png"
+                                }
+                            ],
+                            "duration": 5442,
+                            "retry": 0,
+                            "status": "passed",
+                            "subs": [
+                                {
+                                    "title": "Before Hooks",
+                                    "type": "step",
+                                    "status": "hook",
+                                    "duration": 1250,
+                                    "location": "",
+                                    "subs": [
+                                        {
+                                            "title": "browserContext.newPage",
+                                            "type": "step",
+                                            "status": "pw:api",
+                                            "duration": 626,
+                                            "location": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "page.goto(https://playwright.dev/)",
+                                    "type": "step",
+                                    "status": "pw:api",
+                                    "duration": 1663,
+                                    "location": "test/example.spec.ts:6:14"
+                                },
+                                {
+                                    "title": "expect.toHaveTitle",
+                                    "type": "step",
+                                    "status": "expect",
+                                    "duration": 748,
+                                    "location": "test/example.spec.ts:9:22"
+                                },
+                                {
+                                    "title": "expect.toHaveAttribute",
+                                    "type": "step",
+                                    "status": "expect",
+                                    "duration": 89,
+                                    "location": "test/example.spec.ts:15:28"
+                                },
+                                {
+                                    "title": "locator.click(role=link[name=\"Get started\"i])",
+                                    "type": "step",
+                                    "status": "pw:api",
+                                    "duration": 1247,
+                                    "location": "test/example.spec.ts:18:20"
+                                },
+                                {
+                                    "title": "expect.toHaveURL",
+                                    "type": "step",
+                                    "status": "expect",
+                                    "duration": 251,
+                                    "location": "test/example.spec.ts:21:22"
+                                },
+                                {
+                                    "title": "page.screenshot",
+                                    "type": "step",
+                                    "status": "pw:api",
+                                    "duration": 294,
+                                    "location": "test/example.spec.ts:23:26"
+                                },
+                                {
+                                    "title": "After Hooks",
+                                    "type": "step",
+                                    "status": "hook",
+                                    "duration": 474,
+                                    "location": "",
+                                    "subs": [
+                                        {
+                                            "title": "browserContext.close",
+                                            "type": "step",
+                                            "status": "pw:api",
+                                            "duration": 56,
+                                            "location": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "location": "test/example.spec.ts:0:0"
+                }
+            ]
+        }
+    ]
+}

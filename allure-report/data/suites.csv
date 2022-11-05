@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Nov 05 20:42:08 IST 2022","Sat Nov 05 20:42:14 IST 2022","6057","webkit","example.spec.ts","","","","homepage has title and links to intro page @example",""
+"passed","Sat Nov 05 20:42:08 IST 2022","Sat Nov 05 20:42:20 IST 2022","12209","firefox","example.spec.ts","","","","homepage has title and links to intro page @example",""
+"passed","Sat Nov 05 20:42:08 IST 2022","Sat Nov 05 20:42:12 IST 2022","3966","chromium","example.spec.ts","","","","homepage has title and links to intro page @example",""

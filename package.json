@@ -1,0 +1,24 @@
+{
+  "name": "playwright_example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "allure-commandline": "^2.18.1",
+    "allure-playwright": "^2.0.0-beta.19",
+    "monocart-reporter": "^1.0.7",
+    "playwright": "^1.27.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.27.1"
+  },
+  "scripts": {
+    "pwtest": "playwright test --project=chromium",
+    "pwtests": "playwright test --project=chromium --project=firefox --project=webkit --grep @example",
+    "pwshow": "playwright show-report",
+    "genallure": "allure generate allure-test-results -o allure-report --clean && allure open allure-report",
+    "openallure": "allure open allure-report"
+  }
+}
