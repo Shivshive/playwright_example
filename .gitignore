@@ -128,3 +128,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+playwright-report
+allure-report
+allure-test-results
+test-results
